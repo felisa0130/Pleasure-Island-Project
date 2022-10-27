@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+    Bernice Chen
+    visit.html
+    10/23/2022
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pleasure Island Website: Dinning</title>
+<link rel="stylesheet" href="css/dinning.css" href="https://fonts.googleapis.com/css?family=Open Sans"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+</head>
+
+<body>
+  <div class="site">
+  
+  <header>
+    <div class="logo">
+      <a href="index.html">
+      <img id="img_logo" src="images/Pleasure.png" alt="logo of Pleasure Island">
+      </a>  
+    </div>
+  </header> 
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="visit.html" class="visit">Visit</a>
+        <a href="dinning.html" class="dinning">Dinning</a>
+        <a href="event.html" class="event">Event</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>  
+    </div>
+
+  <h1 class="page-title">Where to Eat</h1> 
+
+  <img class="image" src="images/dinning.jpg" alt="Food Image">
+  
+  <div class="restaurants">   
+    <table>
+      <caption>Havana's Restaurant</caption>
+      <tr>
+        <th>Call</th>
+        <th>Address</th>
+      </tr>
+      <tr>
+        <td>(910) 458-2822</td>
+        <td>1 N Lake Park Blvd. Carolina Beach, NC 28428</td>
+      </tr>
+    </table>
+    <br>
+    <table>
+      <caption>Jack Mackerel's Island Grill</caption>
+      <tr>
+        <th>Call</th>
+        <th>Address</th>
+      </tr>
+      <tr>
+        <td>(910) 458-7668</td>
+        <td>PO Box 150 Kure Beach, NC 28449</td>
+      </tr>
+    </table>
+    <br>
+    <table>
+      <caption>Lake Park Steakhouse</caption>
+      <tr>
+        <th>Call</th>
+        <th>Address</th>
+      </tr>
+      <tr>
+        <td>(910) 707-0996</td>
+        <td>12 S Lake Park Blvd. Carolina Beach, NC 28428</td>
+      </tr>
+    </table>
+  </div>
+
+<!-- Use the main area to add the main content to the webpage -->
+  <main class="main-content">
+    <h3>Restaurants and Dining Options in Carolina Beach and Kure Beach</h3>   
+    <p>Pleasure Island is home to some of the area's favorite restaurants, including award winning seafood and locally sourced fare.  With options ranging from fresh oysters and peel-and-eat shrimp, to waterfront dining, breakfast diners, take-out, bistros, cafes, and sub shops plus yummy pizza, donuts, ice cream and fudge, Pleasure Island is a popular dining destination for area residents and visitors alike.</p>
+  </main>
+  
+  <footer class="footer">
+    <p>&copy; Copyright 2022. All Rights Reserved.</p>
+    <p>Join Our Email Newsletter! &nbsp; <a id="btn_join" title="Join newsletter" href="form.html">Sign Up</a></p>
+    <p>Follow Us on Twitter</p><a href="https://twitter.com/"><img class="social" src="images/twitter.png" alt="logo of twitter"></a>
+    <p>Follow Us on Facebook</p><a href="https://facebook.com/"><img class="social" src="images/facebook.png" alt="logo of facebook"></a>
+  </footer>
+</div>
+</body>
+</html>

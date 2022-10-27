@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+    Bernice Chen
+    visit.html
+    10/23/2022
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pleasure Island Website: Visit</title>
+<link rel="stylesheet" href="css/visit.css" href="https://fonts.googleapis.com/css?family=Open Sans"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+</head>
+
+<body>
+  <div class="site">
+  
+  <header>
+    <div class="logo">
+      <a href="index.html">
+      <img id="img_logo" src="images/Pleasure.png" alt="logo of Pleasure Island">
+      </a>  
+    </div>
+  </header> 
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="visit.html" class="visit">Visit</a>
+        <a href="dinning.html" class="dinning">Dinning</a>
+        <a href="event.html" class="event">Event</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>  
+    </div>
+
+  <h1 class="page-title">Where to Play</h1> 
+
+  <img class="image" src="images/visit.jpg" alt="Play at the beach">
+  
+<!-- Use the main area to add the main content to the webpage -->
+  <main class="main-content">
+    <h3>Fun Things to Do in Carolina Beach and Kure Beach</h3>   
+    <p>Carolina Beach and Kure Beach on Pleasure Island, NC offer tons of attractions and fun things to do for visitors and residents of all ages. Come for a beach vacation or a weekend getaway, come for the fun events and festivals, and discover all the unique and wonderful attractions we have to offer.
+    <p>Rent a charter boat for an amazing fishing experience, book a cruise to explore the Intracoastal Waterway, take a stand up paddle boarding (SUP) lesson, camp overnight oceanfront or in the Carolina Beach State Park, or spend an afternoon on one of our renowned golf courses just over the bridge. Check out the Boardwalk in Carolina Beach for great shopping, yummy food and treats, amusement rides, and free live music during the summer season. Or visit the renowned Kure Beach Pier for great fishing and gorgeous ocean views.</p>
+  </main>
+
+  <section class="sidebar">
+    <h3>Our Beaches</h3>
+    <ul>
+      <li><a href="#">Carolina Beach</a></li>
+      <li><a href="#">Kure Beach</a></li>
+      <li><a href="#">Historic Fort Fisher</a></li>
+    </ul>  
+  </section>  
+  
+  <footer class="footer">
+    <p>&copy; Copyright 2022. All Rights Reserved.</p>
+    <p>Join Our Email Newsletter! &nbsp; <a id="btn_join" title="Join newsletter" href="form.html">Sign Up</a></p>
+    <p>Follow Us on Twitter</p><a href="https://twitter.com/"><img class="social" src="images/twitter.png" alt="logo of twitter"></a>
+    <p>Follow Us on Facebook</p><a href="https://facebook.com/"><img class="social" src="images/facebook.png" alt="logo of facebook"></a>
+  </footer>
+</div>
+</body>
+</html>
